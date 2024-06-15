@@ -24,7 +24,7 @@ $CurrentTime = Get-Date -Format "HH:mm"
 $output = tempo l $PositionalParameter $Env:time-$CurrentTime -d "$d"
 
 if (-not $output) {
-    Write-Host -ForegroundColor red "There was an error while trying to log with tempo. No new start time was set."
+    Write-Host -ForegroundColor Red "There was an error while trying to log with tempo. No new start time was set."
     return
 }
 
