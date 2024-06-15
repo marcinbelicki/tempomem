@@ -1,0 +1,1 @@
+tempomem script's purpose is to provide more functionalities to [tempomat](https://github.com/szymonkozak/tempomat). The assumption is that the user is using Windows powershell and the tempomat is already installed.
